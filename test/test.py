@@ -32,7 +32,7 @@ os.makedirs(OUT_DIR, exist_ok=True)
 NUM_FOLDS = 5
 
 ESM2_BASE = "esm2_t30_150M_UR50D"
-ESM2_CKPT_DIR = "trained_models/ESM2_BiGating"
+ESM2_CKPT_DIR = "ESM2_BiGating"
 
 T5_BASE = "protT5_local"
 T5_CKPT_DIR = "ProtT5_Fusion"

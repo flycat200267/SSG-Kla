@@ -12,7 +12,7 @@ from transformers.trainer_utils import get_last_checkpoint
 from peft import get_peft_model, LoraConfig, TaskType
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-FILE_PATH = 'final_train_data.xlsx'
+FILE_PATH = 'train_data.xlsx'
 MODEL_CHECKPOINT = "protT5_local"
 CHECKPOINT_ROOT = "./protT5_checkpoints_fusion"
 MAX_LEN = 51

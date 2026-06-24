@@ -4,9 +4,9 @@ from sklearn.metrics import roc_auc_score, accuracy_score, matthews_corrcoef
 from scipy.special import expit, logit
 from scipy.optimize import minimize
 import os
-FILE_ESM = "./Seq_branch/scores/ESM2_BiGating_results.csv"
-FILE_T5 = "./Seq_branch/scores/ProtT5_Fusion_results.csv"
-FILE_SAPROT = "./saprot/scores/SaProt_modify_results.csv"
+FILE_ESM = "./scores/ESM2_BiGating_results.csv"
+FILE_T5 = "./scores/ProtT5_Fusion_results.csv"
+FILE_SAPROT = "./scores/SaProt_modify_results.csv"
 def calculate_entropy(probs):
     eps = 1e-9
     entropy = - (probs * np.log(probs + eps) + (1 - probs) * np.log(1 - probs + eps))

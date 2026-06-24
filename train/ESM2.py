@@ -12,7 +12,7 @@ from transformers.trainer_callback import PrinterCallback, ProgressCallback
 from transformers.trainer_utils import get_last_checkpoint
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-file_path = 'final_train_data.xlsx'
+file_path = 'train_data.xlsx'
 model_checkpoint = "esm2_t30_150M_UR50D"
 CHECKPOINT_ROOT = "./esm2_BiGating_checkpoints"
 df = pd.read_excel(file_path)

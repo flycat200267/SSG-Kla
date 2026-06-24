@@ -17,7 +17,7 @@ os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 torch.cuda.set_device(0)
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-DATA_PATH = "final_train_data.xlsx"
+DATA_PATH = "train_data.xlsx"
 SAPROT_MODEL_PATH = "Saprot_Local"
 NPZ_PATH = "afdb_51mer_coords.npz"
 POCKET_NPZ_PATH = "afdb_spatial_pocket.npz"
