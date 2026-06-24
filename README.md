@@ -12,8 +12,8 @@ By constructing three parallel decoupled branches, SSG-Kla integrates:
 * A spatial topological module integrating SaProt with an Equivariant Graph Attention Network (EGAT).
 
 To mitigate structural uncertainties, the model introduces a dynamic late fusion mechanism based on information entropy , achieving highly accurate prediction of Kla sites.
-![Uploading A_graph_.png…]()
 
+<img width="3456" height="3253" alt="A_graph_" src="https://github.com/user-attachments/assets/8518b9b6-fcfa-4c59-b40d-1cca70e528b8" />
 
 ## Installation
 
