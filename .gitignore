@@ -1,0 +1,12 @@
+logs/
+trained_models/
+__pycache__/
+*.pyc
+.venv/
+.env
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.7z
+*.7z.*
